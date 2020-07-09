@@ -5,3 +5,7 @@ rcpp_hello_world <- function() {
     .Call(`_toyrcpp_rcpp_hello_world`)
 }
 
+timesTwo <- function(x) {
+    .Call(`_toyrcpp_timesTwo`, x)
+}
+
